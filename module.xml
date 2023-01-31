@@ -19,7 +19,6 @@
 			<field name="enable_cdr" type="string" length="50" />
 			<field name="enable_rpid" type="string" length="50" />
 			<field name="scheme" type="string" length="50" />
-			<field name="route" type="string" length="50" />
 		</table>
 	</database>
 	<depends>
