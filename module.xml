@@ -2,7 +2,7 @@
 	<rawname>outcnam</rawname>
 	<repo>unsupported</repo>
 	<name>Outbound CNAM</name>
-	<version>16.0.1</version>
+	<version>17.0.1</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
@@ -11,7 +11,7 @@
 		<outcnam>Outbound CNAM</outcnam>
 	</menuitems>
 	<changelog>
-		*16.0.1*  fix splice fail if no trunks/outroutes
+		*17.0.1*  fix splice fail if no trunks/outroutes
 	</changelog>
 	<database>
 		<table name="outcnam_config">
@@ -22,10 +22,10 @@
 		</table>
 	</database>
 	<depends>
-		<version>ge 16.0.21</version>
+		<version>ge 17.0.1</version>
 	</depends>
 
  	<supported>
- 		<version>16.0</version>
+ 		<version>17.0</version>
  	</supported>
 </module>
