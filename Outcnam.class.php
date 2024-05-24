@@ -6,6 +6,7 @@ use BMO;
 use PDO;
 use Exception;
 
+#[\AllowDynamicProperties]
 class Outcnam implements BMO
 {
     public $FreePBX = null;
