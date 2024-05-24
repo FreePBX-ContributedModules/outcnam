@@ -104,6 +104,7 @@ class Outcnam implements BMO
         $configs = $this->getAllConfigurations();
         $context = "macro-dialout-trunk";
         $exten = "s";
+	$dial_macro_exists = false;
         $webroot = $this->FreePBX->Config->get('AMPWEBROOT');
 		// the dial macro will only exist if there is at least one outroute defined with a trunk
 		// just checking for the existence of routes and trunks is not sufficient
