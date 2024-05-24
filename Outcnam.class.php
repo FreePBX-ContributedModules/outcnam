@@ -46,7 +46,7 @@ class Outcnam implements BMO
      */
     public function doConfigPageInit($page)
     {
-        if ($_POST['action'] == 'edit') {
+        if (isset($_POST['action']) && $_POST['action'] == 'edit') {
             $this->editConfig(1, $_POST);
         };
     }
