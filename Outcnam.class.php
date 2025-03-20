@@ -214,7 +214,7 @@ class Outcnam implements BMO
     public function showPage()
     {
         $vars = $this->getConfiguration(1);
-        $vars['updateNotice'] = $this->onlineVersionCheck() ? "<br>A <b>new version of this module is available</b> from the <a target='_blank' href='http://pbxossa.org'>PBX Open Source Software Alliance</a><br>" : '';
+	$vars['updateNotice'] = '';
         $schemes = $this->FreePBX->Superfecta->getAllSchemes();
         $schemeOptions = ['<option value="ALL|ALL">ALL</option>'];
         foreach ($schemes as $scheme) {
